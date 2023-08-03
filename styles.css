@@ -1,23 +1,26 @@
-.parent-box{
-	display: grid;
-	grid-template-columns: repeat(6, 50px);
-	grid-template-rows: 50px 50px;
-	gap: 5px;
+.holder{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+/* 	width: 300px; */
 }
 .box-1{
 	background-color: red;
 	width: 50px;
 	height: 50px;
+	margin: 5px;
 }
 
 .box-2{
 	background-color: blue;
 	width: 50px;
 	height: 50px;
+	margin: 5px;
 }
 
 .box-3{
 	background-color: green;
 	width: 50px;
 	height: 50px;
+	margin: 5px;
 }
